@@ -1,0 +1,24 @@
+info:
+  contact: {}
+paths:
+  /videos:
+    post:
+      consumes:
+      - multipart/form-data
+      parameters:
+      - description: 動画
+        in: formData
+        name: file
+        required: true
+        type: file
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+        "500":
+          description: Internal Server Error
+      summary: 動画送信API
+      tags:
+      - Video
+swagger: "2.0"
