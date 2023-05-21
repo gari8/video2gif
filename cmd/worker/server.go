@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"github.com/gari8/video2gif/infrastructure/driver"
+	"github.com/redis/go-redis/v9"
 	"log"
 	"os"
 )

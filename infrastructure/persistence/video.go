@@ -5,6 +5,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/gari8/video2gif/infrastructure/driver"
+	"github.com/redis/go-redis/v9"
 	"io"
 )
 
